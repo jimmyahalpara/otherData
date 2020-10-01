@@ -49,7 +49,7 @@ body {
 }
 
 
-#FName, #Pad, #Jila, #Pradesh, #Sankhya, #Niyukti, #PadAdhikari {
+#FName, #Pad, #Jila, #Pradesh, #Sankhya, #Niyukti, #PadAdhikari, #Serial, #Date, #Mobile  {
 	background-color: transparent;
 	border: none;
 }
@@ -169,4 +169,34 @@ body {
 	background-color: white;
 	border-radius: 30px;
 	border-color: black;
+}
+
+#Serial {
+	position: absolute;
+	display: inline-block;
+	top: 396px;
+	left: 180px;
+	font-weight: bold;
+	font-size: 26px;
+	width: 215px;
+}
+
+#Date {
+	position: absolute;
+	display: inline-block;
+	top: 435px;
+	left: 180px;
+	font-weight: bold;
+	font-size: 26px;
+	width: 215px;	
+}
+
+#Mobile {
+	position: absolute;
+	display: inline-block;
+	top: 394px;
+	left: 600px;
+	font-weight: bold;
+	font-size: 32px;
+	width: 250px;	
 }
