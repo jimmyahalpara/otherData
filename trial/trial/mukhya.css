@@ -136,15 +136,35 @@ body {
 	background-color: black;
 	display: inline-block;
 	position: absolute;
-	top: 70px;
+	top: 41px;
 	left: 720px;
-	padding: 12px 20px;
+	padding: 10px 20px;
 	border: 5px solid white;
 	transition: color, background-color, border-radius, border-color;
 	transition-duration: 0.6s;
 }
 
 #printbutton:hover {
+	color: black;
+	background-color: white;
+	border-radius: 30px;
+	border-color: black;
+}
+
+#printpdf {
+	color: white;
+	background-color: black;
+	display: inline-block;
+	position: absolute;
+	top: 88px;
+	left: 723px;
+	padding: 10px 20px;
+	border: 5px solid white;
+	transition: color, background-color, border-radius, border-color;
+	transition-duration: 0.6s;
+}
+
+#printpdf:hover {
 	color: black;
 	background-color: white;
 	border-radius: 30px;

@@ -18,6 +18,7 @@
 		};
 		var printweb = function(){
 			document.getElementById("printbutton").style.display = "none";
+			document.getElementById('printpdf').style.display = "none";
 			document.getElementById("FName").placeholder = "";
 			document.getElementById("Pad").placeholder = "";
 			document.getElementById("Jila").placeholder = "";
@@ -29,6 +30,7 @@
 		}
 		var setimage = function(){
 			document.getElementById("printbutton").style.display = "none";
+			document.getElementById('printpdf').style.display = "none";
 			document.getElementById("FName").placeholder = "";
 			document.getElementById("Pad").placeholder = "";
 			document.getElementById("Jila").placeholder = "";
@@ -45,6 +47,7 @@
     document.write('<img src="'+img+'"/>'); 
 					} 
 				});
+			document.getElementById('printpdf').style.display = "inline-block";
 		}
 	</script>
 </head>
@@ -62,7 +65,8 @@
 		<input type="text" name="padadhikari" placeholder="Enter Text" id = "PadAdhikari">
 		<input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
 		<label for="file" style="cursor: pointer;" id="lab">Upload Image</label>
-		<button id = "printbutton" onclick="setimage()">Print</button>
+		<button id = "printbutton" onclick="setimage()">Print image</button>
+		<button id = "printpdf" onclick="printweb()">Print PDF</button>
 		<div id="imagejimmy"></div> 
 	</div>
 </body>
