@@ -26,6 +26,9 @@
 			document.getElementById("Sankhya").placeholder = "";
 			document.getElementById("Niyukti").placeholder = "";
 			document.getElementById("PadAdhikari").placeholder = "";
+			document.getElementById("Serial").placeholder = "";
+			document.getElementById("Date").placeholder = "";
+			document.getElementById("Mobile").placeholder = "";
 			window.print();
 		}
 		var setimage = function(){
@@ -38,6 +41,9 @@
 			document.getElementById("Sankhya").placeholder = "";
 			document.getElementById("Niyukti").placeholder = "";
 			document.getElementById("PadAdhikari").placeholder = "";
+			document.getElementById("Serial").placeholder = "";
+			document.getElementById("Date").placeholder = "";
+			document.getElementById("Mobile").placeholder = "";
 			html2canvas(document.body, {
 					allowTaint: true,
 					onrendered: function(canvas) { 
@@ -68,6 +74,9 @@
 		<button id = "printbutton" onclick="setimage()">Print Image</button>
 		<button id = "printpdf" onclick="printweb()">Print PDF</button>
 		<div id="imagejimmy"></div> 
+		<input type="text" name="serial" placeholder="Enter Text" id = "Serial">
+		<input type="text" name="date" placeholder="Enter Text" id = "Date">
+		<input type="text" name="mobile" placeholder="Enter Text" id = "Mobile">
 	</div>
 </body>
 </html>
